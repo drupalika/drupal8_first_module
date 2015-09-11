@@ -1,0 +1,7 @@
+drupalika_module_develop:
+  path: '/drupalika/develop'
+  defaults:
+    _controller: '\Drupal\drupalika_module\Controller\DrupalikaDevelopController::content'
+    _title: 'Drupalika Module'
+  requirements:
+    _access: 'TRUE'
